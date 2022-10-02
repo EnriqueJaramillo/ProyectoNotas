@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+    <head>
+        <meta charset="UTF-8">
+        
+        <!--Para crear un menú responsive (Diseño adaptativo en diferentes dispositivos)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ------------------------------------- -->
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SuperAdmin</title>
+        <link rel="stylesheet" href="/PROYECTONOTAS/CSS/estiloFormulario.css">
+        <link rel="stylesheet" href="/PROYECTONOTAS/CSS/estilosBotones.css">
+        <link rel="stylesheet" href="/PROYECTONOTAS/CSS/estilosImagenes.css">
+        <link rel="stylesheet" href="/PROYECTONOTAS/CSS/estilosTextos.css">
+        
+    </head>
+    <body>
+        <header class="DocenteEncabezado">
+            <form 
+                action="" 
+                id="DocenteEncabezadoFormulario"
+            >
+                <img src="/PROYECTONOTAS/IMAGENES/INICIO_SESION/UnivalleProp.png" alt="" id="ImagenEncabezado">
+                <div style="text-align: right;" id="NombreUsuario">
+                    Enrique Jaramillo
+                </div>
+                <div style="text-align: right;" id="Usuario">
+                    Usuario: SUPERADMIN
+                </div>
+            </form>
+        </header>
+        <div class="DocenteBarraLateralIzquierda">
+            <form 
+            action="" 
+            id="DocenteBarraLateralIzquierdaFormulario"
+            >
+            <p id="TituloMenuPrincipal">
+                MENÚ PRINCIPAL
+            </p>
+            <div class="Navegador">
+                <ul class="nivel1">
+                    <li><button id="BotonMenu" >Información Personal</button></li>
+                    <li><button id="BotonMenu">Usuarios</button></li>
+                        <ul class="nivel2Usuarios">
+                            <li><button id="BotonMenu">Admin Usuarios</button></li>
+                            <li><button id="BotonMenu">Roles y Permisos</button></li>
+                            <li><button id="BotonMenu">Consulta de Información Personal</button></li>
+                        </ul>
+                    <li><button id="BotonMenu">Asignaturas</button></li>
+                        <ul class="nivel2Asignaturas">
+                            <li><button id="BotonMenu">Admin Notas</button></li>
+                            <li><button id="BotonMenu">Admin Actividades</button></li>
+                            <li><button id="BotonMenu">Asignaturas</button></li>
+                                <ul class="nivel3Asignaturas">
+                                    <li><button id="BotonMenu">Resultados</button></li>
+                                    <li><button id="BotonMenu">Actividades</button></li>
+                                </ul>
+                            <li><button id="BotonMenu">Listados</button></li>
+                                <ul class="nivel3Listados">
+                                    <li><button id="BotonMenu">Estudiantes por Asignatura</button></li>
+                                    <li><button id="BotonMenu">Docentes y Asignaturas</button></li>
+                                </ul>
+                        </ul>
+                    <li><button id="BotonMenu">Pensum</button></li>
+                        <ul class="nivel2Pensum">
+                            <li><button id="BotonMenu">Admin Asignaturas</button></li>
+                            <li><button id="BotonMenu">Admin Horarios</button></li>
+                            <li><button id="BotonMenu">Admin Aulas</button></li>
+                        </ul>
+                    <li><button id="BotonMenu">Cerrar Sesión</button></li>
+
+                </ul>
+
+            </div>
+        </form>
+    </div>
+    </body>
+</html>
+
+
