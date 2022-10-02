@@ -1,0 +1,131 @@
+/*---INICIO DE SESION*/
+#BotonIngresar{
+    color: brown;
+    width: 180px;
+    height: 40px;
+    border: 0px;
+}
+#BotonIngresar:hover{
+    color: rgb(0, 0, 0);
+    width: 210px;
+    height: 43px;
+    font-size: 18px;
+    background-color: rgb(179, 255, 0);
+    border: 0px;
+    border-radius: 30px;
+}
+#BotonIngresar:focus{
+    background-color: rgb(255, 145, 0);
+}
+
+/*--------FIN INICIO DE SESION----------------------*/
+/*----INICIO DOCENTE----------------------*/
+/* #BotonCerrarSesion{
+    border: 0px;
+    background-color: rgb(158, 0, 0);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+}
+#BotonCerrarSesion:hover{
+    border: 0px;
+    color: rgb(179, 255, 0);
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        
+} */
+#BotonInfoPersonal{
+    background-color: rgb(158, 158, 158);
+    border: 1px;
+    border-style: double;
+    border-color: rgb(130, 130, 130);
+    border-top: rgb(158, 158, 158);
+    border-left: rgb(158,158,158);
+    border-right: rgb(158,158,158);
+    width: 238px;
+    height: 50px;
+    margin-left: -18px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding:10px 20px 10px;
+}
+#BotonInfoPersonal:hover{
+    background-color: rgb(153,0, 0);
+    border: 1px;
+    border-style:none;
+    width: 260px;
+    height: 50px;
+    margin-left: -30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: white;
+    padding:10px 40px 10px;
+}
+#BotonAsignaturas{
+    background-color: rgb(158, 158, 158);
+    border: 1px;
+    border-style: double;
+    border-color: rgb(130, 130, 130);
+    border-top: rgb(158, 158, 158);
+    border-left: rgb(158,158,158);
+    border-right: rgb(158,158,158);
+    width: 238px;
+    height: 50px;
+    margin-left: -18px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding:10px 20px 10px;
+}
+#BotonAsignaturas:hover{
+    background-color: rgb(153,0, 0);
+    border: 1px;
+    border-style:none;
+    width: 260px;
+    height: 50px;
+    margin-left: -30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: white;
+    padding:10px 40px 10px;
+}
+#BotonCerrarSesion{
+    background-color: rgb(158, 158, 158);
+    border: 1px;
+    border-style: double;
+    border-color: rgb(130, 130, 130);
+    border-top: rgb(158, 158, 158);
+    border-left: rgb(158,158,158);
+    border-right: rgb(158,158,158);
+    width: 238px;
+    height: 50px;
+    margin-left: -18px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding:10px 20px 10px;
+}
+#BotonCerrarSesion:hover{
+    background-color: rgb(179,255, 0);
+    border: 1px;
+    border-style:none;
+    width: 260px;
+    height: 50px;
+    margin-left: -30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding:10px 40px 10px;
+}
+/*--------FIN DOCENTE----------------------*/
+/*----INICIO ESTUDIANTE----------------------*/
+
+/*--------FIN ESTUDIANTE----------------------*/
+/*----INICIO SUPERADMIN----------------------*/
+
+/*--------FIN SUPERADMIN----------------------*/

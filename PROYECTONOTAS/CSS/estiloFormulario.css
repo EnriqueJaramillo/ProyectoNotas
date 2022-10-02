@@ -1,0 +1,53 @@
+/*-----INICIO DE SESION-------*/
+.FormularioInicioSesion{
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#FormularioInicioSesion {
+    width:100%;
+    height:auto;
+    padding: 30px 0px 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(153, 0, 0);
+  } 
+
+  /*--------FIN INICIO DE SESION----------------------*/
+  /*----INICIO DOCENTE----------------------*/
+.DocenteEncabezado{
+    margin-top: -8px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: rgb(153,0, 0);
+}
+  #DocenteEncabezado{
+    width:auto;
+    height:auto;
+    padding: 0px 20px 30px;
+    background-color: rgb(153, 0, 0);
+}
+.DocenteBarraLateralIzquierda{
+    margin-top: -0px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: rgb(144, 144, 144);
+}
+#DocenteBarraLateralIzquierdaFormulario{
+    width:200px;
+    height:100%;
+    padding: 5px 20px 500px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(160, 160, 160);
+}
+  /*--------FIN DOCENTE----------------------*/
+/*----INICIO ESTUDIANTE----------------------*/
+
+  /*--------FIN ESTUDIANTE----------------------*/
+  /*----INICIO SUPERADMIN----------------------*/
+
+  /*--------FIN SUPERADMIN----------------------*/
